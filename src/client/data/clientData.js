@@ -5,7 +5,7 @@ const CLIENT_DATA = {
             image:'./resources/Images/Client_section/client1.png',
             name:'Ronne Galle',
             role:'Project Manager',
-            feedback:'Our misson was difficult, the salesforce troop handled it admirably. It took longer than expected, but that was partly due to the fact that we added a number of complicated features while the project was still in progress. Salesforce troop treaded the additional requests admirably, and we are satisfied with the final product. For your Salesforce need, I highly recommend this business.'
+            feedback:'Our misson was difficult, but the salesforce troop team handled it admirably. It took longer than anticipated, but that was partly due to the fact that we added a number of complicated features while the project was still in progress. Salesforce troop treaded the additional requests admirably, and we are satisfied with the final product. For your Salesforce need, I highly recommend this business.'
         },
         {
             image:'./resources/Images/Client_section/client2.png',
@@ -29,12 +29,12 @@ const CLIENT_DATA = {
         }
     ],
     clientsLogo:[
-        '.resources/Images/Companies_section/Capital_One_logo.svg',
-        '.resources/Images/Companies_section/Continental_logo.svg',
-        '.resources/Images/Companies_section/Daimler_logo.svg',
-        '.resources/Images/Companies_section/Hulu.svg',
-        '.resources/Images/Companies_section/Japan_Airlines_logo.svg',
-        '.resources/Images/Companies_section/Venmo_logo.svg'  
+        './resources/Images/Companies_section/Capital_One_logo.svg',
+        './resources/Images/Companies_section/Continental_logo.svg',
+        './resources/Images/Companies_section/Daimler_logo.svg',
+        './resources/Images/Companies_section/Hulu_logo.svg',
+        './resources/Images/Companies_section/Japan_Airlines_logo.svg',
+        './resources/Images/Companies_section/Venmo_logo.svg'  
     ]
 
 }

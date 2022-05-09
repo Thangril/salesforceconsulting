@@ -7,7 +7,29 @@
             </div>
 
             <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
+                    <template for:each={clientData.feedbacks} for:item="feedback">
+                        <div class="col " key={feedback.name}>
+                            <div class="card h-100 card-shadow">
+                                <img  src={feedback.image} class="card-img-top clientImg" alt={feedback.name}/>
+                                <div class="card-body">
+                                    <h3 class="text-center card-title">{feedback.name}</h3>
+                                    <h6 class="text-center card-title">{feedback.role}</h6>
+                                    <p class="card-text">{feedback.feedback}</p>    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </template>
+            </div>
 
+            <div class="row g-4 pt-3">
+                <template for:each={clientData.clientsLogo} for:item="logo">
+                    <div class="col-6 col-md-2" key={logo}>
+                        <img src={logo} class="card-img-top clientImg width120" alt="Clients logo"/>
+                    </div>
+
+                </template>
             </div>
 
         </div>

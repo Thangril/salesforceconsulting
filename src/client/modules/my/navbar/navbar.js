@@ -13,6 +13,17 @@ export default class Navbar extends LightningElement{
    }
 
    get navMobileDesign(){
-       return `navbar navbar-expand-lg navbar-dark  ${this.isMobileToggle ? 'bg-dark' : 'purple-gradient' } `
+       return `fixed-top navbar navbar-expand-lg navbar-dark  ${this.isMobileToggle ? 'bg-dark' : 'purple-gradient' } `
+   }
+
+   navSelection(event){
+       //event.preventDefault()   
+       console.log(event.target.name)    
+       const name = event.target.name.toLowerCase().replace(/\s+/g,'')
+       let tagName = `my-${name}`       
+       const elem = document.querySelector(tagName) 
+       elem.scrollIntoView()
+
+      
    }
 }

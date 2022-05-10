@@ -12,5 +12,13 @@ export default class Contactus extends LightningElement{
     }
     sendEmail(){
         console.log(this.formData)
+        this.resetForm()
+    }
+
+    resetForm(){
+        const form = this.template.querySelector('form')
+        if(form){
+            form.reset()
+        }
     }
 }

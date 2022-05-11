@@ -31,6 +31,9 @@
     background-color: #673ab7;
 }
 
+.services-section, .aboutus-section, .clients-section, .ourwork-section, .contactus-section{
+    min-height: 100vh;
+}
 @media only screen and (min-width:1024px){
     .services-section, .aboutus-section, .ourwork-section, .contactus-section{
         padding:0rem 5rem;

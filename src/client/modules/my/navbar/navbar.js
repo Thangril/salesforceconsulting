@@ -17,7 +17,7 @@ export default class Navbar extends LightningElement{
    }
 
    navSelection(event){
-       //event.preventDefault()   
+       event.preventDefault()   
        console.log(event.target.name)    
        const name = event.target.name.toLowerCase().replace(/\s+/g,'')
        let tagName = `my-${name}`       
